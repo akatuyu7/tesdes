@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+# Others
+*.ini
+*.zip
+Data/
+External/
+Shader/
+bin/
+obj/
+.vs/
