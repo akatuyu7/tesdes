@@ -12,6 +12,8 @@ void Camera::SetLookAt(const DirectX::XMFLOAT3& eye, const DirectX::XMFLOAT3& fo
 	DirectX::XMFLOAT4X4 world;
 	DirectX::XMStoreFloat4x4(&world, World);
 
+	//
+
 	this->right.x = world.m[0][0];
 	this->right.y = world.m[0][1];
 	this->right.z = world.m[0][2];
